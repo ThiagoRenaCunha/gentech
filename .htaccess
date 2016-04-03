@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine On
+
+	RewriteRule  ^/?$                       			index.php [NC]
+	RewriteRule  ^quem-somos/?$               			quem-somos.php [NC]
+	RewriteRule  ^cursos/graduacao/?$					graduacao.php [NC]
+	RewriteRule  ^cursos/pos-graduacao/?$				pos-graduacao.php [NC]
+	RewriteRule  ^cursos/extensao/?$					extensao.php [NC]
+	RewriteRule  ^inscricao/?$               			inscricao.php [NC]
+	RewriteRule  ^contato-e-localizacao/?$				contato.php [NC]
+
+</IfModule>

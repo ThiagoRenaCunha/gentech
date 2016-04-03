@@ -1,0 +1,305 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+}
+.paddingTopo{
+	padding: 100px 0 0 0;
+}
+.titulo{
+	font-family: 'Raleway', sans-serif;
+	border-left: 5px solid #09538c;
+	padding-left: 20px;
+	color: #323232;
+	margin: 30px 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+}
+h1.titSite{
+	font-family: 'Raleway', sans-serif;
+	color: #323232;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+.titSite strong{
+	color: #0076cd;
+	font-weight: 700;
+}
+/* NAVBAR */
+nav img.logo{
+	width: auto;
+	height: 90px;
+}
+a.navbar-brand{
+	margin: 0;
+	padding: 0;
+}
+nav.navbar-default{
+	height: 100px !important;
+	background-color: #0c293b;
+	border-color: #01a29a;
+}
+nav .hvr-underline-from-left:before{
+	background: #01a29a;
+}
+@media(min-width: 992px){
+	nav ul.nav{
+		margin-top: 30px;
+	}
+	nav ul.nav li{
+		font-size: 16px;
+		letter-spacing: 2px;
+		margin-right: 40px;
+		line-height: 22px;
+	}
+	nav ul.nav li a{
+		padding: 8px;
+	}
+}
+@media(max-width: 991px;){
+	nav.navbar-default{
+		height: 100px;
+	}
+}
+nav.navbar-default ul.nav li > a,
+nav.navbar-default ul.nav li > a:link
+nav.navbar-default ul.nav li > a:visited{
+	color: #fff !important;
+}
+
+nav.navbar-default ul.nav li > a:hover,
+nav.navbar-default ul.nav li > a:active
+nav.navbar-default ul.nav li > a:focus{
+	color: #fff !important;
+}
+li.dropdown.open a.dropdown-toggle,
+li.dropdown.open a.dropdown-toggle:link,
+li.dropdown.open a.dropdown-toggle:visited{
+	background-color: transparent !important;
+}
+li.dropdown.open a.dropdown-toggle:hover,
+li.dropdown.open a.dropdown-toggle:active,
+li.dropdown.open a.dropdown-toggle:focus{
+	background-color: transparent !important;
+}
+li.dropdown.open .dropdown-menu li a,
+li.dropdown.open .dropdown-menu li a:link,
+li.dropdown.open .dropdown-menu li a:visited{
+	color: #000 !important;
+}
+li.dropdown.open .dropdown-menu li a:hover,
+li.dropdown.open .dropdown-menu li a:active,
+li.dropdown.open .dropdown-menu li a:focus{
+	color: #000 !important;
+	background: #fff;
+}
+ul.dropdown-menu{
+	max-width: 180px;
+}
+ul.dropdown-menu li{
+	margin: 0 auto !important;
+}
+/* end NAVBAR */
+.carousel-inner{
+	height: 100vh;
+}
+.carousel-caption p{
+	width: 40%;
+	margin: 0 auto;
+	font-size: 30px;
+	text-shadow: 15px;
+}
+.carousel-caption a.btn-default{
+	margin: 20px 0;
+	background: transparent;
+	color: #f7f7f7;
+}
+.carousel-caption a.btn-default:hover{
+	background: #00bdfe;
+	border-color: #202020;
+	color: #202020;
+}
+section#footer{
+	padding: 50px 0;
+	margin: 0;
+	background-image: url('../img/bg-footer.png');
+
+}
+.copy div.logo{
+	width: 380px;
+	margin: 0 auto;
+}
+/* CURSOS */
+.tab-pane article{
+	padding: 0 30px;
+}
+.tab-pane h2{
+	margin-left: -15px;
+}
+div.tab-pane .container{
+	width: 100%;
+	padding: 50px;
+}
+div.tab-pane p{
+	padding: 0 25px;
+}
+.graduacao{
+	background: url('../img/cream_pixels.png');
+}
+.paddingPadrao{
+	padding: 60px 0;
+}
+#a-universidade{
+	background: url('../img/bg-partner.png');
+	background-size: cover;
+}
+#a-universidade .titulo{
+	color: #f7f7f7;
+
+}
+#a-universidade p{
+	color: #e5e5e5;
+}
+/* CONTATO E LOCALIZAÇÃO*/
+form textarea{
+	resize: ;
+}
+section#contato h2, section#contato h3{
+	color: #0c293b;
+}
+section#contato form input,
+ section#contato form textarea{
+	border: 3px solid #09538c;
+	border-radius: 10px;
+	box-shadow: none;
+	background: transparent;
+	color: #09538c;
+	height: 50px;
+	padding: 9px 12px;
+	font-size: 22px;
+	font-weight: 700;
+}
+section#contato form input[type="email"],
+ section#contato form input[type="tel"]{
+	margin-top: 20px;
+}
+@media(max-width:991px){
+	section#contato form input[type="email"],
+	 section#contato form input[type="tel"]{
+		margin-top: 0px;
+	}
+}
+section#contato form textarea{
+	resize: none;
+	height: 170px
+}
+section#contato form input:focus,
+ section#contato form textarea:focus{
+	border: 3px solid #01a29a;
+}
+section#contato form input[placeholder],
+ section#contato form textarea[placeholder]{
+	font-weight: lighter;
+}
+section#contato form input::-webkit-input-placeholder {
+	color: #09538c;
+}
+section#contato form input:-moz-placeholder {
+	color: #09538c;
+}
+section#contato form input::-moz-placeholder {
+	color: #09538c;
+}
+section#contato form input:-ms-input-placeholder {
+	color: #09538c;
+}
+#contato form .btn-padrao,
+ #contato form .btn-padrao:link,
+  #contato form .btn-padrao:visited{
+	color: #09538c;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 0;
+
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+#contato form .btn-padrao:hover,
+ #contato form .btn-padrao:focus,
+  #contato form .btn-padrao:active{
+	border: 3px solid #01a29a;
+	color: #01a29a;
+
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+div.btn-padrao{
+	width: 220px;
+	margin: 0 auto;
+}
+a.btn-geral,
+ a.btn-geral:link,
+  a.btn-geral:visited{
+	border: 3px solid #01a29a;
+	border-radius: 10px;
+	box-shadow: none;
+	background: transparent;
+	color: #01a29a;
+	width: 220px;
+	height: 50px;
+	padding: 6px 12px;
+	margin: 0 auto;
+	font-size: 22px;
+	font-weight: 700;
+
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+a.btn-geral:hover,
+ a.btn-geral:focus,
+  a.btn-geral:active{
+	border: 3px solid #09538c;
+	color: #09538c;
+
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+#missao{
+	background: url('../img/bg-partner.png');
+	background-size: cover;
+	color: #fff;
+}
+#missao p{
+	font-size: 17px;
+}
+#quem-somos h1{
+	font-size: 50px;
+}
+#quem-somos .img-brain{
+	max-width: 400px;
+	height: auto;
+}
+#inscricao{
+	padding: 150px 0 0 0;
+}
+#inscricao form .col-sm-6{
+	padding: 20px 30px;
+}
